@@ -13,4 +13,6 @@ void times_table(void);
 void print_num(int);
 int get_digits_number(int);
 void print_separator(int);
+int add(int, int);
+void print_to_98(int n);
 #endif

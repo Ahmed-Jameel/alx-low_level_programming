@@ -76,7 +76,7 @@ int get_digits_number(int n)
 }
 
 /**
- * print_separator: It prints seperators
+ * print_separator -  It prints seperators
  * @digits: The number of digits
  *
  * Description: It prints separators

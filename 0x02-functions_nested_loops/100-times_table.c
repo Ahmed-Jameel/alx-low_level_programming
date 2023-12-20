@@ -17,7 +17,12 @@ void print_times_table(int n)
 				int digits, result = i * j;
 
 				if (j == 0)
-					printf("%d,", result);
+				{
+					printf("%d", result);
+					/*To handle case n = 0*/
+					if (n != 0)
+						putchar(',');
+				}
 				else
 				{
 					digits = get_digits(result);
